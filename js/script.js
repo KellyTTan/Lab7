@@ -1,12 +1,14 @@
 function init(){
-   var name = document.getElementByClassName('center');
-   name.addEventListener('click', myEventFunction);
-   name.addEventListen('clicl', function() {
-    console.log('')
-//add your javascrip between these two lines of code
+    var name = document.getElementByClassName('center');
+    var input = document.getElementById('entryinput');
+    var output = document.getElementById('textoutput');
+    var button = document.getElementById('entrybutton');
+   
+    button.addEventListener('click', function() {
+         output.innerHTML = input.value;
+          alert("name + input.value)
+    });
 
-
-
-
+}
 
 window.addEventListener('load', init);
