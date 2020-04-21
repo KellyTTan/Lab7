@@ -6,7 +6,7 @@ function init(){
    
     button.addEventListener('click', function() {
          output.innerHTML = input.value;
-         alert(name.textContent + ": " + input.value)
+         alert(name.textContent + ": " + input.value);
     });
 
 }
