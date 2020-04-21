@@ -5,8 +5,9 @@ function init(){
     var button = document.getElementById('entrybutton');
    
     button.addEventListener('click', function() {
-         output.innerHTML = input.value;
          alert(name.textContent + ": " + input.value);
+         output.innerHTML = input.value;
+         
     });
 
 }
